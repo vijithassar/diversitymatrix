@@ -17,7 +17,7 @@ To launch your own diversity matrix:
 
 1) First make a spreadsheet which contains a list of the people you want in the chart. Each person will be rendered as a rectangle with a little popup box. The spreadsheet must have columns for "first name", "middle name", and "last name," as well as "start_date" and "end_date", and "organization" -- this last one is what will determine which column each person appears in. Dates can be four-digit years, and can also include the month for specificity if desired with the format MM/YYYY (e.g. "7/2014"). The "end_date" field can be set to "present" if applicable.
 
-2) Export the spreadsheet as a comma-separated values file called people.csv.
+2) Export the spreadsheet as a comma-separated values file called people.csv -- it shouldn't be necessary, but just in case, this repository includes a sample which you can use as your template.
 
 3) For non-techies, this is the trickiest part -- figure out where you're going to keep these files on your server, then open up the diversitymatrix.js script and edit the first couple lines to reflect those locations:
 
