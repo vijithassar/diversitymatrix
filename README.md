@@ -3,7 +3,7 @@ diversitymatrix
 
 *Data visualization for racial and gender diversity*
 
-The *Diversity Matrix* is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
+The **Diversity Matrix** is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
 
 See an example: <a href="#">Diversity in Journalism</a> at Scratch Magazine.
 
@@ -28,7 +28,7 @@ To launch your own diversity matrix:
 
 ```
 
-**// TO DO: convert to module pattern to make this step easier?**
+*// TO DO: convert to module pattern to make this step easier?*
 
 4) Upload the diversitymatrix.css, people.csv, and diversitymatrix.js files to your server or web host; make sure the first two items end up in the exact locations you specified when you edited them into diversitymatrix.js.
 
