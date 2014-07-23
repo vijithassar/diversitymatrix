@@ -48,13 +48,7 @@ To launch your own diversity matrix:
 
 ADVANCED FIDDLING
 
-1) You can change the target div in the configuration variables at the top of the script; this lets you run multiple diversity matrices on the same web page, for example.
-
-```javascript
-  target_div = '#diversitymatrix2';
-```
-
-2) If you have a little JavaScript knowledge, you can also even add your own new demographic qualities to use in the sorted displays -- just add them to your spreadsheet before exporting people.csv! A couple things to keep in mind if you're going down this road, though:
+If you have a little JavaScript knowledge, you can also even add your own new demographic qualities to use in the sorted displays -- just add them to your spreadsheet before exporting people.csv! A couple things to keep in mind if you're going down this road, though:
 
 * Because the matrix automatically sorts into "left" and "right" it can only support binary sorting, which is to say, any new demographic quality you want to highlight must have exactly two possible values. In other words, "rich/poor" would work, but "rich/middle-class/poor" would not. The new fields you add must be present and defined for every person in your data set, because "unknown" or "undefined" would technically be a third value.
 
