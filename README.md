@@ -5,7 +5,7 @@ Data visualization for racial and gender data
 
 The Diversity Matrix is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
 
-See an example: <a href="">Diversity in Journalism</a> at Scratch Magazine.
+See an example: <a href="#">Diversity in Journalism</a> at Scratch Magazine.
 
 With each click, the blocks representing the people are sorted into different groups corresponding to each demographic quality, which illuminates the overall diversity of the groups represented.  By default, it is configured to sort by race and then by gender, but this is trivial to extend if you want to highlight other characteristics. Best of all, it has been designed to be easy to re-implement, even if you don't know any programming -- all you need is a spreadsheet, plus a tiny bit of HTML to get it up onto your web site.
 
@@ -19,12 +19,12 @@ To launch your own diversity matrix:
 
 3) For non-techies, this is the trickiest part -- figure out where you're going to keep these files on your server, then open up the diversitymatrix.js script and edit the first couple lines to reflect those locations:
 
-``javascript
+```javascript
 
   data_url = 'http://www.whatever.com/path/to/the/data/file/people.csv';
   stylesheet_url = 'http://www.whatever.com/path/to/the/stylesheet/diversitymatrix.css';
 
-``
+```
 
 // TO DO: convert to module pattern to make this step easier?
 
@@ -32,13 +32,13 @@ To launch your own diversity matrix:
 
 5) Add the following HTML to your web page or blog post or whatever:
 
-``html
+```html
 
   <div id="diversitymatrix"></div>
   <script type="text/javascript" charset="utf-8" src="http://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript" src="http://www.whatever.com/path/to/the/script/diversitymatrix.js"></script>
 
-``
+```
 
 6) That's it! Please <a href="http://www.twitter.com/vijithassar">let me know</a> if you're using this, though; it's always rewarding to see a project in the wild.
 
@@ -48,9 +48,9 @@ ADVANCED FIDDLING
 
 1) You can change the target div in the configuration variables at the top of the script; this lets you run multiple diversity matrices on the same web page, for example.
 
-``javascript
+```javascript
   target_div = '#diversitymatrix2';
-``
+```
 
 2) If you have a little JavaScript knowledge, you can also even add your own new demographic qualities to use in the sorted displays -- just add them to your spreadsheet before exporting people.csv! A couple things to keep in mind if you're going down this road, though:
 
