@@ -1,15 +1,17 @@
 diversitymatrix
 ===============
 
-Data visualization for racial and gender data
+*Data visualization for racial and gender diversity*
 
-The Diversity Matrix is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
+The *Diversity Matrix* is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
 
 See an example: <a href="#">Diversity in Journalism</a> at Scratch Magazine.
 
+<img src="https://raw.github.com/vijithassar/diversitymatrix/master/header.png">
+
 With each click, the blocks representing the people are sorted into different groups corresponding to each demographic quality, which illuminates the overall diversity of the groups represented.  By default, it is configured to sort by race and then by gender, but this is trivial to extend if you want to highlight other characteristics. Best of all, it has been designed to be easy to re-implement, even if you don't know any programming -- all you need is a spreadsheet, plus a tiny bit of HTML to get it up onto your web site.
 
---
+-----
 
 To launch your own diversity matrix:
 
