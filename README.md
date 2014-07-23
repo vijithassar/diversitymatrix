@@ -32,7 +32,7 @@ To launch your own diversity matrix:
 
 ```
 
-*// TO DO: convert to module pattern to make this step easier?*
+*// Note to self: would implementing Mike Bostock's <a href="http://bost.ocks.org/mike/chart/">suggestions for reusability</a> make this step easier or harder for non-coders?*
 
 4) Upload the diversitymatrix.css, people.csv, and diversitymatrix.js files to your server or web host; make sure the first two items end up in the exact locations you specified when you edited them into diversitymatrix.js.
 
