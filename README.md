@@ -1,4 +1,4 @@
-diversitymatrix
+Diversity Matrix
 ===============
 
 *Data visualization for racial and gender diversity*
