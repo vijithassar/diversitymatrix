@@ -1,0 +1,77 @@
+body {
+	float: left;
+	width: 100%;
+}
+
+div#introduction {
+	display: block;
+	margin: auto;
+}
+
+div#journalismdiversity {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
+	font-size: 100%;
+}
+
+div#journalismdiversity svg {
+	height: 100%;
+	width: 100%;
+}
+
+svg rect {
+	shape-rendering: crispEdges;
+}
+
+svg text {
+	text-rendering: optimizeLegibility;
+}
+
+g#legend g.header text {
+	fill: black;
+	font-weight: bold;
+	text-shadow: 1px 1px #CCCCCC;
+	font-family: 'Georgia', 'serif';
+	text-transform: capitalize;
+ }
+
+g#legend g.header {	
+	box-shadow: 10px 10px 5px #888888;
+}
+
+g.editor rect {
+	stroke-width: 1;
+}
+
+g.male.white rect {
+	fill: #D9E6F7;
+}
+
+g.female.white rect {
+	fill: #F1B2E1;
+}
+
+g.male.non-white rect {
+	fill: #336699;
+}
+
+g.female.non-white rect {
+	fill: #E23D80;
+}
+
+g#spotlight text {
+	font-family: 'Georgia', 'serif';
+}
+
+g#spotlight text#spotlight-organization {
+	font-style: italic;
+	font-size: 80%;
+}
+
+g#spotlight text.date {
+	font-family: 'Arial', 'sans-serif';
+	text-transform: uppercase;
+	font-size: 60%;
+}
