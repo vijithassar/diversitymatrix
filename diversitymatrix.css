@@ -8,7 +8,7 @@ div#introduction {
 	margin: auto;
 }
 
-div#journalismdiversity {
+div#diversitymatrix {
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -16,7 +16,7 @@ div#journalismdiversity {
 	font-size: 100%;
 }
 
-div#journalismdiversity svg {
+div#diversitymatrix svg {
 	height: 100%;
 	width: 100%;
 }
