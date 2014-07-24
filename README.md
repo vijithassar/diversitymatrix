@@ -7,7 +7,7 @@ Diversity Matrix
 
 The **Diversity Matrix** is a simple reusable data visualization which plots demographic information for the individuals in a set of groups along interactive timelines.
 
-See an example: <a href="#">Diversity in Journalism</a> at Scratch Magazine.
+See an example: <a href="http://community.scratchmag.net/diversity-in-journalism">Diversity in Journalism</a> at Scratch Magazine.
 
 <img src="https://raw.github.com/vijithassar/diversitymatrix/master/header.png">
 
