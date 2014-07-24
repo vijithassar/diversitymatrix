@@ -324,10 +324,6 @@
 		var person, organization;
 		// sort people chronologically
 		people_list = data.sort(function(a, b) {
-			// make sure Baquet is at the very end, even if
-			// he doesn't have the date specificity required
-			if (a.last_name === 'Baquet') {return 1;}
-			if (b.last_name === 'Baquet') {return -1;}
 			return a.start - b.start;
 		});
 		// master loop to set up as much as possible based on the
