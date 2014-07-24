@@ -4,6 +4,7 @@
 	var data_url = './people.csv';
 	var stylesheet_url = './diversitymatrix.css'
 	var target_div = '#journalismdiversity';
+	var end_date = new Date(2014, 7);
 
 	var dvmx = {},
 		error,
@@ -41,7 +42,7 @@
 		clicks = 0,
 		click_init = false,
 		earliest_year,
-		chronological_limit = new Date(2014, 7);
+		chronological_limit = end_date || new Date();
 		dvmx = {};
 
 		// neatly nest all utility functions here
