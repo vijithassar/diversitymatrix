@@ -4,7 +4,7 @@
 	var data_url = './people.csv';
 	var stylesheet_url = './diversitymatrix.css'
 	var target_div = '#journalismdiversity';
-	var end_date = new Date(2014, 7);
+	var end_date = new Date();
 
 	var dvmx = {},
 		error,
