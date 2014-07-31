@@ -685,7 +685,7 @@
 	}
 	// detect demographics and use them in determining a 
 	// delay value for animations; blocks from back during the
-	// the long reign of terror of white males don't need to 
+	// the long reign of terror of white men don't need to 
 	// have delays because they won't need to move much
 	dvmx.stagger = function stagger_blocks(d, i) {
 		var is_male = d.gender !== 'male';
