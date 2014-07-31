@@ -684,7 +684,7 @@
 		dvmx.redraw_blocks(error);
 	}
 	// detect demographics and use them in determining a 
-	// delay value for animations; blocks from back during the
+	// delay value for animations; blocks from back during
 	// the long reign of terror of white men don't need to 
 	// have delays because they won't need to move much
 	dvmx.stagger = function stagger_blocks(d, i) {
