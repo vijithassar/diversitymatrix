@@ -42,7 +42,7 @@ You can also specify an exact day if you want:
 
 If you don't specify, the current date will be used — and the most recent boxes will grow over time to accommodate it.
 
-*// Food for thought, nerds: would switching to a module pattern and/or implementing Mike Bostock's <a href="http://bost.ocks.org/mike/chart/">suggestions for reusable charts</a> make this config step easier or harder for non-coders? Hmmm.*
+* \* Food for thought, nerds: would switching to a module pattern and/or implementing Mike Bostock's <a href="http://bost.ocks.org/mike/chart/">suggestions for reusable charts</a> make this config step easier or harder for non-coders? Hmmm.\* *
 
 4) Upload the diversitymatrix.css, people.csv, and diversitymatrix.js files to your server or web host; make sure the first two items end up in the exact locations you specified when you edited them into diversitymatrix.js.
 
